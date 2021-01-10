@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/microservicesdemo?createDatabaseIfNotExist=true
-    username: pragradb
-    password: Vivek123
+    username: root
+    password: 
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
