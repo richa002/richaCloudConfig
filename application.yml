@@ -1,13 +1,14 @@
-server:
-  port: 8080
 spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/krish/spring-cloud-config
-          search-paths:
-           - '*service'
+  datasource:
+    url: jdbc:mysql://batch28.cb77p6dnnrjw.us-east-1.rds.amazonaws.com:3306/microservicesDemo?createDatabaseIfNotExist=true
+    username: pragradb
+    password: Vivek123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
 
 
 
