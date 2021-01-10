@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://batch28.cb77p6dnnrjw.us-east-1.rds.amazonaws.com:3306/microservicesDemo?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/microservicesdemo?createDatabaseIfNotExist=true
     username: pragradb
     password: Vivek123
     driver-class-name: com.mysql.jdbc.Driver
